@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { List, ListItem, ListIcon } from "@chakra-ui/react";
-import { Box, Flex, Spacer, Text } from "@chakra-ui/layout";
+import { Flex, Spacer, Text } from "@chakra-ui/layout";
 
 import { DeleteIcon } from "@chakra-ui/icons";
 import expenseContext from "../../context/expense/ExpenseContext";

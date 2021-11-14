@@ -8,7 +8,7 @@ const ExpenseReducer = (state, action) => {
 
     switch (action.type) {
         case ADD_TRANSACTION:
-            transactions = [...state, action.payload];
+            transactions = [action.payload, ...state];
             localStorage.setItem("transactions", JSON.stringify(transactions));
             return transactions;
         

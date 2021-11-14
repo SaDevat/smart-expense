@@ -1,8 +1,11 @@
 import { Box, Text } from "@chakra-ui/layout";
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
+import useTransactions from "../../hooks/useTransactions";
 
 const Details = ({ title }) => {
+  const {total, chartData} = useTransactions(title);
+
   return (
     <div>
       <Box
@@ -18,9 +21,9 @@ const Details = ({ title }) => {
           {title}
         </Text>
         <Text fontSize="1.5rem" textAlign="left">
-          Details
+          ${total}
         </Text>
-        {/* <Doughnut data="DATA" /> */}
+        <Doughnut style={{maxHeight: "30vh"}} data={chartData} />
       </Box>
     </div>
   );

@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+## WORK IN PROGRESS
+
+TODO:
+  - [ ] improve ui
+  - [ ] add framer motion
+  - [ ] Integrate Firebase/Supabase
+
+
+-------------------------------------------------------------------
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

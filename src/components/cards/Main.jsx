@@ -1,4 +1,4 @@
-import { Box, Divider, Text } from "@chakra-ui/layout";
+import { Box, Text } from "@chakra-ui/layout";
 import React, { useContext } from "react";
 import Form from "./Form";
 import TransactionList from "./TransactionList";

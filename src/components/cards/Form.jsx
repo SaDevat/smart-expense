@@ -31,7 +31,7 @@ const initialState = {
 const Form = () => {
   const { addTransaction } = useContext(expenseContext);
   const [formData, setFormData] = useState(initialState);
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
   const createTransaction = () => {
     if (Number.isNaN(Number(formData.amount)) || !formData.date.includes("-"))
@@ -45,7 +45,7 @@ const Form = () => {
       setFormData({ ...formData, type: "Expense" });
     }
 
-    setOpen(true);
+    // setOpen(true);
     addTransaction({
       ...formData,
       amount: Number(formData.amount),

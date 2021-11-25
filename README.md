@@ -3,6 +3,7 @@
 TODO:
   - [ ] improve ui
   - [ ] add framer motion
+  - [ ] add speechly integration
   - [ ] Integrate Firebase/Supabase
 
 
